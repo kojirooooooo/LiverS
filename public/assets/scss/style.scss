@@ -1,6 +1,104 @@
 @charset "UTF-8";
+@use "common" as *;
 
-/** ページスタイル **/
-main > .container {
-  padding: 60px 15px 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $serif;
+  background-color: #fff;
+  color: $font-color;
+}
+
+/**カード画像**/
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/** ヘッダー **/
+
+.navbar-brand {
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.navbar-socal-links {
+  &__list {
+    margin: 0 0.75em;
+    &--icon {
+      font-size: 40px;
+    }
+  }
+}
+
+/**ページレイアウト**/
+
+.main {
+  margin-top: -20px;
+}
+
+.first-view {
+  height: 100%;
+  @include wide-image("https://photo-room.net/wp-content/uploads/pr00548.jpg");
+}
+
+.big-bunners {
+  @include wide-image(
+    "https://user0514.cdnw.net/shared/img/thumb/miyakojima-12729_TP_V.jpg"
+  );
+  &__image {
+    max-width: 800px;
+    @include tab-view() {
+      width: 80%;
+    }
+  }
+}
+
+.explanation-area {
+  &__content {
+    margin: 3rem 7.5rem 3rem;
+    @include tab-view() {
+      margin: 3rem 1rem 3rem;
+    }
+    @include mobile-view() {
+      margin: 3rem 4rem 3rem;
+    }
+  }
+  &__card {
+    border: none;
+  }
+}
+
+.grid-list {
+  @include wide-image("https://photo-room.net/wp-content/uploads/pr00548.jpg");
+  height: 100%;
+  &__content {
+    margin: 3rem 10rem 3rem;
+    @include tab-view() {
+      margin: 3rem 1rem 3rem;
+    }
+    @include mobile-view() {
+      margin: 3rem 4rem 3rem;
+    }
+  }
+}
+
+/**フッター**/
+.footer {
+  background-color: $first-color;
+  &__socal-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    &--icon {
+      font-size: 40px;
+    }
+  }
 }
