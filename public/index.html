@@ -1,8 +1,15 @@
 <!doctype html>
-<html lang="ja" class="h-100">
+<html lang="ja">
 
-<head>
+<head prefix="og: https://ogp.me/ns#">
   <meta charset="utf-8">
+  <meta property="og:url" content="https://livers-site.web.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LiverS GTA Server" />
+  <meta property="og:description"
+    content="Everyone is an Entertainer 誰もがエンターテイナー。すべての参加者が主人公であり、物語の主役であるLiverSの公式Webページ" />
+  <meta property="og:site_name" content="LiverS GTA Server" />
+  <meta property="og:image" content="./assets/img/exp-bunner_kari.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Everyone is an Entertainer 誰もがエンターテイナー。すべての参加者が主人公であり、物語の主役であるLiverSの公式Webページ">
   <meta name="author" content="Kojiro Sugiyama, and Bootstrap contributors">
@@ -44,7 +51,9 @@
             <a href="https://twitter.com/liverSofficialS"><i
                 class="navbar-socal-links__list--icon bi bi-twitter"></i></a>
           </li>
-          <li class="navbar-socal-links__list"><i class="navbar-socal-links__list--icon bi bi-youtube"></i></li>
+          <li class="navbar-socal-links__list">
+            <a class="text-dark" href="#"><i class="footer__socal-links--icon bi bi-youtube"></i></a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -68,19 +77,19 @@
 
     <section class="big-bunners py-5">
       <div class="container text-center">
-        <figure>
+        <figure class="fadeIn">
           <a class="bg-image hover-zoom" href="#">
             <img class="big-bunners__image" src="./assets/img/main-bunner1.jpeg" alt="メインバナー1">
           </a>
         </figure>
 
-        <figure class="mt-5">
+        <figure class="mt-5 fadeIn">
           <a href="#">
             <img class="big-bunners__image" src="./assets/img/main-bunner2.jpeg" alt="メインバナー2">
           </a>
         </figure>
 
-        <figure class="mt-5">
+        <figure class="mt-5 fadeIn">
           <a href="#">
             <img class="big-bunners__image" src="./assets/img/main-bunner3.jpeg" alt="メインバナー3">
           </a>
@@ -94,11 +103,14 @@
 
       <div class="explanation-area__content">
 
-        <h2 class="text-center">見出し見出し</h2>
-        <p class="fw-bold text-center">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div class="fadeIn">
+          <h2 class="text-center">見出し見出し</h2>
+          <p class="fw-bold text-center">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+
 
         <div class="row">
-          <article class="col-md-4 col-12">
+          <article class="col-md-4 col-12 fadeIn">
             <figure>
               <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
             </figure>
@@ -107,7 +119,7 @@
             </p>
           </article>
 
-          <article class="col-md-4 col-12">
+          <article class="col-md-4 col-12 fadeIn">
             <figure>
               <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像2">
             </figure>
@@ -115,7 +127,7 @@
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           </article>
 
-          <article class="col-md-4 col-12">
+          <article class="col-md-4 col-12 fadeIn">
             <figure>
               <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像3">
             </figure>
@@ -126,12 +138,14 @@
       </div>
 
       <div class="explanation-area__content">
-        <h2 class="text-center">見出し見出し</h2>
-        <p class="fw-bold text-center">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div class="fadeIn">
+          <h2 class="text-center">見出し見出し</h2>
+          <p class="fw-bold text-center">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
 
         <div class="row">
 
-          <div class="col-md-6 col-12">
+          <div class="col-md-6 col-12 fadeIn">
             <div class="card mb-3 explanation-area__card">
               <div class="row g-0">
                 <div class="col-lg-6">
@@ -149,7 +163,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-12">
+          <div class="col-md-6 col-12 fadeIn">
             <div class="card mb-3 explanation-area__card">
               <div class="row g-0">
                 <div class="col-lg-6">
@@ -167,7 +181,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-12">
+          <!-- <div class="col-md-6 col-12 fadeIn">
             <div class="card mb-3 explanation-area__card">
               <div class="row g-0">
                 <div class="col-lg-6">
@@ -185,7 +199,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-12">
+          <div class="col-md-6 col-12 fadeIn">
             <div class="card mb-3 explanation-area__card">
               <div class="row g-0">
                 <div class="col-lg-6">
@@ -201,7 +215,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -210,74 +224,74 @@
 
     <section class="grid-list py-5">
       <div class="grid-list__content">
-        <h2 class="text-center text-white fw-bold">見出し見出し</h2>
+        <h2 class="text-center text-white fw-bold fadeIn">見出し見出し</h2>
 
 
         <div class="row mt-5">
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-12 mt-3">
-            <div class="card">
-              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像4">
-              <div class="card-body">
-                <h3 class="card-title h5">Card title</h3>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
+          <article class="col-md-4 col-12 fadeIn">
+            <figure>
+              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
+            </figure>
+            <h3 class="h5 text-white">小見出し</h3>
+            <p class="text-white">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </article>
+
+          <article class="col-md-4 col-12 fadeIn">
+            <figure>
+              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
+            </figure>
+            <h3 class="h5 text-white">小見出し</h3>
+            <p class="text-white">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </article>
+
+          <article class="col-md-4 col-12 fadeIn">
+            <figure>
+              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
+            </figure>
+            <h3 class="h5 text-white">小見出し</h3>
+            <p class="text-white">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </article>
         </div>
 
       </div>
 
+    </section>
+
+    <section class="before-footer">
+      <div class="before-footer__content">
+        <h2 class="text-center fadeIn">見出し見出し</h2>
+        <div class="row mt-5">
+          <article class="col-md-6 col-12 before-footer__article fadeIn">
+            <figure>
+              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
+            </figure>
+            <h3 class="h5 text-center pb-2 border-bottom">小見出し</h3>
+            <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p class="d-grid">
+              <a href="#" class="btn btn-outline-warning text-dark">Read More</a>
+            </p>
+          </article>
+
+          <article class="col-md-6 col-12 mt-md-0 mt-5 before-footer__article fadeIn">
+            <figure>
+              <img class="card-img" src="./assets/img/exp-bunner_kari.png" alt="説明画像1">
+            </figure>
+            <h3 class="h5 text-center pb-2 border-bottom">小見出し</h3>
+            <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p class="d-grid">
+              <a href="#" class="btn btn-outline-warning text-dark">Read More</a>
+            </p>
+          </article>
+        </div>
+      </div>
     </section>
 
   </main>
@@ -289,7 +303,7 @@
           <a href="https://twitter.com/liverSofficialS"><i class="footer__socal-links--icon bi bi-twitter"></i></a>
         </li>
         <li>
-          <a href="#"><i class="footer__socal-links--icon bi bi-youtube"></i></a>
+          <a class="text-dark" href="#"><i class="footer__socal-links--icon bi bi-youtube"></i></a>
         </li>
       </ul>
       <p class="text-end text-white fw-bold">CopyLight <span id="nowYear"></span> &copy; LiverS. All Rights Reserved.</>
