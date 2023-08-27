@@ -61,8 +61,6 @@
   }
 }
 
-/**ローディング2 円形にロード画面がフェードアウト**/
-
 html {
   height: 100%;
 }
@@ -105,6 +103,12 @@ body {
 .first-view {
   height: 100vh;
   @include wide-image("https://photo-room.net/wp-content/uploads/pr00548.jpg");
+  &__heading {
+    font-family: "Abril Fatface", serif;
+  }
+  &__p {
+    font-family: "Abril Fatface", serif;
+  }
 }
 
 .big-bunners {

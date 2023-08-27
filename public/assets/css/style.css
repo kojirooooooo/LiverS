@@ -81,7 +81,6 @@
     color: inherit;
   }
 }
-/**ローディング2 円形にロード画面がフェードアウト**/
 html {
   height: 100%;
 }
@@ -122,6 +121,12 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.first-view__heading {
+  font-family: "Abril Fatface", serif;
+}
+.first-view__p {
+  font-family: "Abril Fatface", serif;
 }
 
 .big-bunners {
