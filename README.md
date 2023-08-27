@@ -5,9 +5,9 @@
 GTA ロールプレイサーバーである LiverS の公式 LP サイト
 
 **_URL_**
-![LiverS](https://livers-site.web.app/)
+[LiverS](https://livers-site.web.app/)
 
 ## 作者
 
-[kojiro.sugayama](https://www.facebook.com/kojiro.sugayama)
+[kojiro.sugayama](https://www.facebook.com/kojiro.sugayama)<br>
 [@mui_bocchi](https://twitter.com/mui_bocchi)
